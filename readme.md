@@ -1,67 +1,67 @@
 🖊️ API - JSON - Test API
-API para base de dados de filmes e séries
+API for movie and series database
 
  https://www.themoviedb.org
-Manipular JSON
+manipulate JSON
 
  http://jsonviewer.stack.hu
-Testar Requisições
+Test Requests
 
  http://resttesttest.com
-Ícones do Material-UI
+Material-UI Icons
 
- https://material-ui.com/pt/components/material-icons/
-📺 Projeto
-Esse projeto trata-se de uma simples reprodução do NetFlix para estudo de React, não contem todas as funcionalidades.
+ https://material-ui.com/en/components/material-icons/
+📺 Project
+This project is a simple reproduction of NetFlix to study React, it doesn't contain all the functionalities.
 
-Para a área de destaque e lista de filmes e séries foi usado a API do themoviedb.
+For the highlight area and list of movies and series, themoviedb API was used.
 
-📎 1. Criando e Adicionando Ícones
-$ npx create-react-app netflixclone
-$ cd netflixclone
+📎 1. Creating and Adding Icons
+$npx create-react-app netflixclone
+$cd netflixclone
 $ npm install @material-ui/core @material-ui/icons
-$ npm start
-📎 2. Estrutura de arquivos e pastas
-$ src
-	$ components
-		FeaturedMovie.css
-		FeaturedMovie.js
-		Header.css
-		Header.js
-		MovieRow.css
-		MovieRow.js
-	App.css
-	App.js
-	index.css
-	index.js
-	Tmdb.js
+$npm start
+📎 2. File and folder structure
+$src
+$components
+FeaturedMovie.css
+FeaturedMovie.js
+header.css
+Header.js
+MovieRow.css
+MovieRow.js
+App.css
+App.js
+index.css
+index.js
+Tmdb.js
 💻 App.js
-A tela principal foi dividida em 03 componentes:
+The main screen was divided into 03 components:
 
-Cabeçario -
-Destaque -
-Lista de Filmes e Séries -
+Header -
+Emphasis -
+List of Films and Series -
 📎 ​Tmdb.js
-Este arquivo contém a comunicação com a API do themoviedb.org que devolve um catalogo onde encontramos informações de filmes e séries.
+This file contains the communication with the themoviedb.org API that returns a catalog where we find information about movies and series.
 
 📎 Header
-Este componente serve apenas para compor a tela principal. Contem apenas o logo e ícone do usuário logado, não possui eventos.
+This component is only used to compose the main screen. It only contains the logo and icon of the logged in user, it has no events.
 
 📎 FeaturedMovie
-Este componente é responsavel por mostrar um filme ou uma série em destaque.
+This component is responsible for showing a featured movie or series.
 
-Informando: pontuação, ano de lançamento, total de temporadas e uma breve descrição.
+Informing: score, year of release, season total and a brief description.
 
-Toda vez que a página é carregada muda o destaque.
+Every time the page loads the highlight changes.
 
 📎 MovieRow
-Este componente é responsavel por mostrar as listas de:
+This component is responsible for showing the lists of:
 
-Originais da netflix;
-Recomendados trending;
-Em alta melhores votados - top rated
-Ação
-Comédia
-Terror
+Netflix Originals;
+Recommended trending;
+Top rated in high - top rated
+Action
+Comedy
+Horror
 Romance
-Documentários
+Documentaries
