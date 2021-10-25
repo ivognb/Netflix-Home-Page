@@ -1,3 +1,8 @@
+![image](https://user-images.githubusercontent.com/63275054/138734075-673a666d-0b16-494e-b256-75ca851a98b0.png)
+![image](https://user-images.githubusercontent.com/63275054/138734118-db29372b-d443-4879-9807-23af4f591957.png)
+
+
+
 🖊️ API - JSON - Test API
 API for movie and series database
 
