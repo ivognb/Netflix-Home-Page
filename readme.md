@@ -33,7 +33,7 @@ For the highlight area and list of movies and series the **themoviedb** API was 
 
 ```bash
 $npx create-react-app netflixclone
-$cd netflixclone
+$cd netflix_clone
 $ npm install @material-ui/core @material-ui/icons
 $npm start
 ```
